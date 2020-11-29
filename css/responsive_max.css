@@ -1,0 +1,96 @@
+@media screen and (max-width: 900px) {
+  /* Phone ++++++++++++++++++++++++++*/
+  .userfoto {
+    height: 70px;
+  }
+  h2 {
+    text-align: center;
+    margin-top: 30px;
+    padding-top: 20px;
+  }
+  #carrousel {
+    min-height: 300px;
+    padding-bottom: 20px;
+  }
+  #carrousel p {
+    padding-top: 10px;
+  }
+  .logowanderlust {
+    height: 10px;
+  }
+  .container {
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  .radio-inline {
+    margin-left: 12px;
+  }
+  /* cards  ++++++++++++++++++++++++++*/
+  .card {
+    margin-bottom: 40px;
+  }
+  .userlink {
+    height: 80px;
+  }
+  .ratings p {
+    text-align: center;
+  }
+  .ratings .userphoto {
+    height: 120px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  .space {
+    width: 100%;
+    padding: 2px 0px 2px 0px;
+    margin: 5px 0px 5px 0px;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+  }
+  /* cards FIN ++++++++++++++++++++++++++*/
+  .sitemap {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    font-size: 2em;
+    background-color: #ff9966;
+  }
+  .sitemap a:hover {
+    color: black;
+    text-decoration: underline;
+  }
+  /*Footer++++++++++++++++++++++++++*/
+  footer-rss {
+    width: 100%;
+    padding: 0px;
+    margin: 0px;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    background-color: black;
+  }
+  .foot-rss a {
+    font-size: 10px;
+    padding: 0px;
+    color: white;
+    font-size: 1em;
+    padding: 10px;
+  }
+}
+/*# sourceMappingURL=responsive_max.css.map */
