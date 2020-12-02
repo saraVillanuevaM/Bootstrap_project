@@ -3,7 +3,7 @@
 @import"responsive_min";
 @import"colors";
 
-
+html{background-color: $color-black;}
 body{font-family: 'montserrat', sans-serif;}
 
 ul{
@@ -66,14 +66,21 @@ color:$color-black;
 
 .card{
 margin:0px 30px 10px 30px;
+display:flex;
+flex-flow: row;
 align-items: center;
 
+}
+
+element.style{
+    width: 20%;
 }
 .card-img-top{
     height: 150px;
     width: 150px;
     margin-top: 10px;
     align-self: center;
+    width: 20%;
 }
 
 .readerschoice{
@@ -94,9 +101,7 @@ border-radius: 7px;
 
 /* PLAN ++++++++++++++++++++++++++*/
 
-.foot-rss{ background-color:$color-black;
-color: white;
-text-align: center;}
+
 
 .sitemap{ 
     background-color:$color-coral;
@@ -111,3 +116,9 @@ svg{
 align-self: stretch;
 }
 
+.foot-rss{ background-color:$color-black;
+color: $color-white;
+text-align: center;
+background-color:$color-black ;}
+
+footer{ background-color: $color-black;}
